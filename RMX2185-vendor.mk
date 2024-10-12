@@ -45,7 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/etc/gboard_theme/Oigiri_Board.zip:$(TARGET_COPY_OUT_SYSTEM)/etc/gboard_theme/Oigiri_Board.zip \
     vendor/realme/RMX2185/proprietary/etc/default-permissions/default-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/default-permissions.xml \
     vendor/realme/RMX2185/proprietary/etc/permissions/privapp-permissions-op-launcher.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-op-launcher.xml \
-    vendor/realme/RMX2185/proprietary/etc/sysconfig/op-launcher-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/op-launcher-hiddenapi-package-whitelist.xml
+    vendor/realme/RMX2185/proprietary/etc/sysconfig/op-launcher-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/op-launcher-hiddenapi-package-whitelist.xml \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
 
 PRODUCT_PACKAGES += \
     EngineerMode \
