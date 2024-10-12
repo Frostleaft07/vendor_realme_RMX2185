@@ -42,7 +42,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/etc/gboard_theme/Light_Wild_Willow:$(TARGET_COPY_OUT_SYSTEM)/etc/gboard_theme/Light_Wild_Willow \
     vendor/realme/RMX2185/proprietary/etc/gboard_theme/Light_Wild_Willow.zip:$(TARGET_COPY_OUT_SYSTEM)/etc/gboard_theme/Light_Wild_Willow.zip \
     vendor/realme/RMX2185/proprietary/etc/gboard_theme/Oigiri_Board:$(TARGET_COPY_OUT_SYSTEM)/etc/gboard_theme/Oigiri_Board \
-    vendor/realme/RMX2185/proprietary/etc/gboard_theme/Oigiri_Board.zip:$(TARGET_COPY_OUT_SYSTEM)/etc/gboard_theme/Oigiri_Board.zip
+    vendor/realme/RMX2185/proprietary/etc/gboard_theme/Oigiri_Board.zip:$(TARGET_COPY_OUT_SYSTEM)/etc/gboard_theme/Oigiri_Board.zip \
+    vendor/realme/RMX2185/proprietary/etc/default-permissions/default-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/default-permissions.xml \
+    vendor/realme/RMX2185/proprietary/etc/permissions/privapp-permissions-op-launcher.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-op-launcher.xml \
+    vendor/realme/RMX2185/proprietary/etc/sysconfig/op-launcher-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/op-launcher-hiddenapi-package-whitelist.xml
 
 PRODUCT_PACKAGES += \
     EngineerMode \
